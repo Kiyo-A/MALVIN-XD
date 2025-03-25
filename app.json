@@ -15,39 +15,39 @@
     
     "MENU_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
-      "required": false,
+      "required": true,
       "value": "https://files.catbox.moe/gld2vo.jpg"
     }, 
     
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
-      "required": false,
+      "required": true,
       "value": "https://files.catbox.moe/ktd1l4.jpg"
     }, 
     
     "LIVE_MSG": {
       "description": "paste your alive message hear.",
-      "required": false,
+      "required": true,
       "value": "> ✦ᴍᴀʟᴠɪɴ xᴅ✦ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ᴍᴀʟᴠɪɴ xᴅ v2✦ ғʀᴏᴍ ɴᴇxᴜs ᴛᴇᴄʜ ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/kingmalvn/MALVIN-XD⚡"
     },
     
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
-      "required": false,
+      "required": true,
       "value": "."
     },
     
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
-      "required": false,
-      "value": "public"
+      "required": true,
+      "value": "private"
       
     },  
     
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
-      "required": false,
-      "value": "✦MALVIN-XD✦"
+      "required": true,
+      "value": "✦Rio✦"
     },
     
     
@@ -77,8 +77,8 @@
 
     "AUTO_STATUS_SEEN": {
       "description": "Make it true for automatic status seen.",
-      "required": true,
-      "value": "true"
+      "required": false,
+      "value": "false"
      }, 
 
     "AUTO_STATUS_REACT": {
@@ -95,21 +95,21 @@
 
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
-      "required": true,
+      "required": false,
       "value": "*🎉👀Status Seen by malvin xd v2🚀🔥*"
     }, 
 
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
-      "required": false,
-      "value": "Malvin King"
+      "required": true,
+      "value": "𝗥𝗜𝗢"
       
      }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
-      "required": false,
-      "value": "263714757857"
+      "required": true,
+      "value": "2348087915719"
 
     }, 
 
@@ -141,7 +141,7 @@
 
       "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
-      "required": false,
+      "required":  true,
       "value": "false"
     },
     
